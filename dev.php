@@ -20,14 +20,29 @@ if ( ! function_exists('de'))
     }
 }
 
-if ( ! function_exists('d'))
+if ( ! function_exists('dd'))
 {
     /**
      * Short cut to var_dump; exit;
+     * 
+     * @param mixed ...
+     */
+    function dd()
+    {
+        var_dump(\func_get_args());
+        exit;
+    }
+}
+
+if ( ! function_exist('d'))
+{
+    /**
+     * Short cut to var_dump();
+     * 
+     * @param mixed ...
      */
     function d()
     {
         var_dump(\func_get_args());
-        exit;
     }
 }
