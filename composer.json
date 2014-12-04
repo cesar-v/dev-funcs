@@ -1,0 +1,15 @@
+{
+    "name": "cesarv/dev-funcs",
+    "description": "Short cuts during development",
+    "authors": [
+        {
+            "name": "Cesar Vega",
+            "email": "cesar.binary@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "dev.php"
+        ]
+    }
+}
