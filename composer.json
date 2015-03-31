@@ -1,10 +1,14 @@
 {
     "name": "cesarv/dev-funcs",
     "description": "Short cuts during development",
+    "homepage": "https://github.com/cesar-v/dev-funcs",
+    "keywords": ["development", "shortcut"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Cesar Vega",
-            "email": "cesar.binary@gmail.com"
+            "email": "cesar.binary@gmail.com",
+            "homepage": "https://github.com/cesar-v"
         }
     ],
     "autoload": {

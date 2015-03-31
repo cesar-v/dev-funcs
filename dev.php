@@ -16,7 +16,7 @@ if ( ! function_exists('de'))
         }
         
         $date = date('M d, Y H:i:s:u', microtime(true));
-        \mail('cesar.vega@wnc.edu', 'debug ' . $date, implode("\n", $args));
+        \mail('cesar.binary@gmail.com', 'debug ' . $date, implode("\n", $args));
     }
 }
 
