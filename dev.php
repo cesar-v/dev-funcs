@@ -53,6 +53,23 @@ if ( ! function_exists('d'))
     }
 }
 
+if ( ! function_exists('dj'))
+{
+    /**
+     * Dump into JSON.
+     * 
+     * @param mixed ...
+     */
+    function dj()
+    {
+        foreach (\func_get_args() as $arg)
+        {
+            echo json_encode($arg, JSON_PRETTY_PRINT);
+            echo "\n";
+        }
+    }
+}
+
 if ( ! function_exists('speed'))
 {
     /**
