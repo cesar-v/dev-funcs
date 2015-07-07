@@ -70,6 +70,24 @@ if ( ! function_exists('dj'))
     }
 }
 
+if ( ! function_exists('dp'))
+{
+    /**
+     * Dump surrounded by <pre>'s
+     * 
+     * @param mixed ...
+     */
+    function dp()
+    {
+        foreach (\func_get_args() as $arg)
+        {
+            echo "<pre>";
+            var_dump($arg);
+            echo "</pre>";
+        }
+    }
+}
+
 if ( ! function_exists('speed'))
 {
     /**
